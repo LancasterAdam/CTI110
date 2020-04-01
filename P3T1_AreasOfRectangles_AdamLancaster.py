@@ -3,7 +3,7 @@
 # CTI-110 P3T1 Area of Rectangles
 # Adam Lancaster
 
-repeat = 'y'                                                # nested WHILE loop
+repeat = 'y'                                                # WHILE loop
                                                             # to make testing
 while repeat == 'y':                                        # faster
 
