@@ -7,14 +7,14 @@
 c1 = 'white'                                            # initial value.
 c2 = 'black'                                            # initial value.
 
-while c1 != ('red' or 'blue' or 'yellow'):           # get color 1 input
+while c1 != ('red' or 'blue' or 'yellow'):              # get color 1 input
     c1 = str(input('enter first color to be mixed: '))  # while rejecting 
-    if c1 != ('red' or 'blue' or 'yellow'):          # invalid colors.
+    if c1 != ('red' or 'blue' or 'yellow'):             # invalid colors.
         print('invalid color.')
 
-while c2 != ('red' or 'blue' or 'yellow'):           # get color 2 input
+while c2 != ('red' or 'blue' or 'yellow'):              # get color 2 input
     c2 = str(input('enter second color to be mixed: ')) # while rejecting
-    if c2 != ('red' or 'blue' or 'yellow'):          # invalid colors.
+    if c2 != ('red' or 'blue' or 'yellow'):             # invalid colors.
         print('invalid color.')
 
 if c1 == 'red':                                         # check c1 for red.
