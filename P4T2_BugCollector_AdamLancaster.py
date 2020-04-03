@@ -3,10 +3,9 @@
 # CTI-110 P4T2
 # Adam Lancaster
 
-total = int(input('enter day 1 bug total: '))           # get day 1 total.
-total += int(input('enter day 2 total: '))              # add day 2 to total.
-total += int(input('enter day 3 total: '))              # add day 3 total.
-total += int(input('enter day 4 total: '))              # add day 4 total.
-total += int(input('enter day 5 total: '))              # add day 5 total.
+total = 0                                               # set starting value.
 
-print('total bugs collected for the week is:', total)
+for day in range (5):                                   # ask for input 5 times.
+    total += int(input('enter day total: '))            # add inputs together.
+    
+print('total bugs collected for the week:', total)      # display output.
