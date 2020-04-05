@@ -67,3 +67,7 @@ while repeat == 'y':                    # loop to speed up repeated tests.
         else:                                   # check for repeat flag.
             print('done.')                      # respond and finish. 
 
+# set up initial loop and variables.
+# get 1st color and validate.
+# get 2nd color and validate.
+# display new color, and queue for repeat. 
