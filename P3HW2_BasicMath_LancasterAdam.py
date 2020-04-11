@@ -50,3 +50,9 @@ while repeat1 == 'y':                                   # check for repeat flag.
     repeat1 = str(input('Calculate again? (y/n) '))     # input for repeat flag.
     if repeat1 == 'n':                                  # check for repeat flag.
             print('Program will terminate.')            # exit output.
+
+
+# get number inputs
+# choose operation
+# display output 
+# queue for repeat
