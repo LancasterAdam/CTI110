@@ -18,3 +18,8 @@ for x in range (100):                       # make 100 shapes.
         turtle.right (90)                   # angle of corner.
     else:                                   # at end of loop, increase size.
         size += 3                           # set increment to increase by.
+        
+# show turtle
+# loop through commands
+# increment
+# repeat
