@@ -37,4 +37,5 @@ turtle.goto(350, -100)
 turtle.hideturtle()                     # stop displaying turtle. 
 
 
-
+# configure turtle window and speed
+# move turtle point to pinbt to create initials
